@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+	background-color: #000;
+	max-width: 195px;
+	max-height: 60px;
+	position: relative;
+	left:30px;
+}
+
+
+
+.container {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	padding: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+   
+}
+
+
+
+.advance {
+	
+	color:#fff;
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+
+.clean {
+	
+	color:#d7c41f;
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center;
+	
+}
+
+
+.gota_padre{
+
+	width: 40px;
+	height: 35px;
+	margin: 30px;
+	position:relative;
+	right:20px;
+	background-color: #00aae4;
+	border-radius: 50% 50% 50% 0%;
+	box-shadow: 
+	-moz-transform: scale(1) rotate(135deg);
+	-webkit-transform: scale(1) rotate(135deg);
+	-o-transform: scale(1) rotate(125deg);
+	-ms-transform: scale(1) rotate125deg);
+	transform: scale(1) rotate(135deg);	
+
+}
+
+
+
+.rectangulo {
+	
+	width: 370px;
+	height: 90px;	
+	padding: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	background-color: transparent;
+	border: solid #d7c41f;
+	position:absolute;
+	margin-right: 50px;
+}
